@@ -545,7 +545,7 @@ main {
 
 footer {
     padding: 3rem 0;
-    height: 400px;
+    height: auto;
     width: 100%;
     background: linear-gradient(#3c005f, #1e0030);
     color: #fff;
@@ -553,7 +553,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
 
     hr {
@@ -562,7 +562,12 @@ footer {
     }
 
     h3{
-        width: 80%;
+        width: 80%;        
+    }
+
+    /*segundo h3*/
+    :nth-child(5){
+        margin-top: 2rem;
     }
 
     a{
@@ -573,12 +578,17 @@ footer {
         color: #fff;
         gap: 7px;
 
+        background-color: #1e0030;
+        padding: 12px;
+        border-radius: 15px;
+
         img{
             width: 25px;
         }
     }
 
-    img{
+    .logo-white{
         width: 200px;
+        margin: 3rem 0;
     }
 }
