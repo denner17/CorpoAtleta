@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Corpo Atleta</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-bg" id="menu-bg"></div>
+
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Nosso time</a></li>
+                    <li><a href="#">Clientes</a></li>
+                </ul>
+
+                <a href=""><button>Entre em contato</button></a>
+            </nav>
+        </div>
+
+        <img id="logo" width="170px" src="img/logo.png" alt="">
+    </header>
+
+    <main>
+        <video autoplay loop muted playsinline>
+            <source src="vd/corpoatletaVideo.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+        <div>
+            <h1>Cuidando do seu <span>movimento</span>. Transformando sua <span>vida</span>.</h1>
+            <p> Fisioterapia & Treinamento Físico</p>
+        </div>
+    </main>
+
+    <section class="accordion">
+        <h2>Serviços</h2>
+        <div class="tab">
+            <input type="checkbox" name="accordion-1" id="cb1" checked>
+            <label for="cb1" class="tab__label"><span>Fisioterapia</span></label>
+            <div class="tab__content">
+                <!--Jucielle-->
+                <div class="profile">
+                    <img class="foto" src="img/jucielle.png" alt="">
+                    <span>@jucielle_fisio</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"Oi! Eu sou sua fisioterapeuta por aqui, Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+                </p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="checkbox" name="accordion-2" id="cb2" checked>
+            <label for="cb2" class="tab__label"><span>Treinamento Fisico</span></label>
+            <div class="tab__content">
+                <!--Jeff-->
+                <div class="profile">
+                    <img class="foto" src="img/jeff.jpg" alt="">
+                    <span>@coach_jeff</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"E aí, eu sou o seu treinador. Lorem ipsum dolor, sit amet consectetur adipisicing elit."</p>
+
+                <!--Adão-->
+                <div class="profile" id="adao">
+                    <img class="foto"
+                        src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
+                        alt="">
+                    <span>@adao_coach</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"Opa, eu vou ajudar você a performar. Lorem ipsum dolor, sit amet consectetur adipisicing elit."</p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="checkbox" name="accordion-3" id="cb3" checked>
+            <label for="cb3" class="tab__label"><span>Pilates Solo</span></label>
+            <div class="tab__content">
+                <!--Carol-->
+                <div class="profile">
+                    <img class="foto"
+                        src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
+                        alt="">
+                    <span>@carol_coach</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"E aí, eu vou ajudar você com as aulas de pilates... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit."</p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="checkbox" name="accordion-4" id="cb4" checked>
+            <label for="cb4" class="tab__label"><span>Lutas</span></label>
+            <div class="tab__content">
+                <!--Antonio-->
+                <div class="profile">
+                    <img class="foto"
+                        src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
+                        alt="">
+                    <span>@prof_antonio</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"Eu sou o seu professor de boxe aqui na academia... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit."</p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="checkbox" name="accordion-5" id="cb5" checked>
+            <label for="cb5" class="tab__label"><span>Nutri</span></label>
+            <div class="tab__content">
+                <!--Nutri-->
+                <div class="profile">
+                    <img class="foto"
+                        src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
+                        alt="">
+                    <span>@nutri</span>
+                    <img class="verificado" src="img/verificado_selo.png" alt="">
+                </div>
+                <p>"E aí, eu vou ajudar você com as aulas de pilates... Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="localizacao">
+        <div>
+            <h2>Horários de funcionamento:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Manhã</th>
+                        <th>Tarde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Onde estamos localizados?</h2>
+        <p>Rua Marquês do Alegrete, 269 - Bairro São João</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.094341038541!2d-51.190403224447834!3d-30.005447374943223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197908f61d007b%3A0xda64353793758d54!2sCorpo%20Atleta!5e0!3m2!1spt-BR!2sbr!4v1732286002872!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="nossoTime">
+        <h2>Nosso Time</h2>
+
+        <div class="fotos">
+            <div class="perfil"></div>
+            <div class="perfil"></div>
+            <div class="perfil"></div>
+            <div class="perfil"></div>
+            <div class="perfil"></div>
+            <div class="perfil"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2024 direitos reservados a CorpoAtleta</p>
+        <hr>
+
+        <!--Insta-->
+        <h3>Mantenha-se atualizado das novidades, siga nosso perfil do instagram:</h3>
+        <a href=""><img src="img/insta_icon.png" alt="">@corpo_atleta</a>
+
+        <!--whats-->
+        <h3>Para mais detalhes, entre em contato através do whatsapp:</h3>
+        <a href=""><img src="img/whatsapp_icon.png" alt="">(51) 99284732</a>
+
+        <img src="img/corpoatleta_white.png" alt="">
+
+    </footer>
+
+
+</body>
+
+</html>
