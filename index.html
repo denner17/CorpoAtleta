@@ -21,13 +21,15 @@
             </div>
             <nav class="nav" id="nav">
                 <ul>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Nosso time</a></li>
-                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#horarios">Horários</a></li>
+                    <li><a href="#loc">Localização</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
                 </ul>
 
-                <a href="https://api.whatsapp.com/send?phone=555194391707&fbclid=PAAaY5JbZPckPCewE2pUG_VbHCzBauhY9qOfEkrt3ECgoT0LkqKeEuNaKr2P8_aem_AQUxPGleXtMmRi_ymmJ2T_xPh04MU_zR_yvvICUD3rhJHPHioR87t6MYYDRCI2Zq1JA"><button>Entre em contato</button></a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=555194391707&fbclid=PAAaY5JbZPckPCewE2pUG_VbHCzBauhY9qOfEkrt3ECgoT0LkqKeEuNaKr2P8_aem_AQUxPGleXtMmRi_ymmJ2T_xPh04MU_zR_yvvICUD3rhJHPHioR87t6MYYDRCI2Zq1JA"><button>Entre
+                        em contato</button></a>
             </nav>
         </div>
 
@@ -35,9 +37,8 @@
     </header>
 
     <main>
-        <video autoplay loop muted playsinline>
-            <source src="vd/corpoatletaVideo.mp4" type="video/mp4">
-            Seu navegador não suporta a tag de vídeo.
+        <video autoplay loop muted>
+            <source src="vd/video_corpoatleta.mp4" type="video/mp4">
         </video>
         <div>
             <h1>Cuidando do seu <span>movimento</span>. Transformando sua <span>vida</span>.</h1>
@@ -45,36 +46,35 @@
         </div>
     </main>
 
-    <section class="accordion">
+    <section id="servicos" class="accordion">
         <h2>Serviços</h2>
         <div class="tab">
-            <input type="checkbox" name="accordion-1" id="cb1" checked>
+            <input type="radio" name="accordion" id="cb1">
             <label for="cb1" class="tab__label"><span>Fisioterapia</span></label>
             <div class="tab__content">
-                <!--Jucielle-->
                 <div class="profile">
                     <img class="foto" src="img/jucielle.png" alt="">
                     <span>@jucielle_fisio</span>
                     <img class="verificado" src="img/verificado_selo.png" alt="">
                 </div>
-                <p>"Oi! Eu sou sua fisioterapeuta por aqui, Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+                <p>"Oi! Eu sou a Jucielle, sua fisio por aqui! Meu objetivo é te ajudar a se movimentar sem dor e com
+                    confiança. Bora juntos cuidar do seu corpo pra ele te acompanhar em todas as aventuras?"
                 </p>
             </div>
         </div>
 
         <div class="tab">
-            <input type="checkbox" name="accordion-2" id="cb2" checked>
+            <input type="radio" name="accordion" id="cb2">
             <label for="cb2" class="tab__label"><span>Treinamento Fisico</span></label>
             <div class="tab__content">
-                <!--Jeff-->
                 <div class="profile">
                     <img class="foto" src="img/jeff.jpg" alt="">
                     <span>@coach_jeff</span>
                     <img class="verificado" src="img/verificado_selo.png" alt="">
                 </div>
-                <p>"E aí, eu sou o seu treinador. Lorem ipsum dolor, sit amet consectetur adipisicing elit."</p>
+                <p>"Fala aí! Eu sou o Jefferson, seu treinador. Meu trabalho é te ajudar a alcançar seus objetivos com
+                    treinos que fazem sentido pra você. Vamos juntos transformar esforço em resultado?"</p>
 
-                <!--Adão-->
                 <div class="profile" id="adao">
                     <img class="foto"
                         src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
@@ -82,15 +82,15 @@
                     <span>@adao_coach</span>
                     <img class="verificado" src="img/verificado_selo.png" alt="">
                 </div>
-                <p>"Opa, eu vou ajudar você a performar. Lorem ipsum dolor, sit amet consectetur adipisicing elit."</p>
+                <p>"E aí, tudo certo? Eu sou o Adão, assistente do Jeff no seu treino. Tô aqui pra ajustar cada detalhe
+                    e garantir que você treine com segurança e eficiência. Bora nessa?"</p>
             </div>
         </div>
 
         <div class="tab">
-            <input type="checkbox" name="accordion-3" id="cb3" checked>
+            <input type="radio" name="accordion" id="cb3">
             <label for="cb3" class="tab__label"><span>Pilates Solo</span></label>
             <div class="tab__content">
-                <!--Carol-->
                 <div class="profile">
                     <img class="foto"
                         src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
@@ -98,16 +98,16 @@
                     <span>@carol_coach</span>
                     <img class="verificado" src="img/verificado_selo.png" alt="">
                 </div>
-                <p>"E aí, eu vou ajudar você com as aulas de pilates... Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit."</p>
+                <p>"Oiê! Sou a Carol, professora de pilates aqui na Corpo Atleta. Vou te ajudar a melhorar sua
+                    flexibilidade, postura e força de um jeito leve e prazeroso. Preparado(a) pra descobrir o poder do
+                    seu corpo?"</p>
             </div>
         </div>
 
         <div class="tab">
-            <input type="checkbox" name="accordion-4" id="cb4" checked>
-            <label for="cb4" class="tab__label"><span>Lutas</span></label>
+            <input type="radio" name="accordion" id="cb4">
+            <label for="cb4" class="tab__label"><span id="horarios">Lutas</span></label>
             <div class="tab__content">
-                <!--Antonio-->
                 <div class="profile">
                     <img class="foto"
                         src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
@@ -115,16 +115,16 @@
                     <span>@prof_antonio</span>
                     <img class="verificado" src="img/verificado_selo.png" alt="">
                 </div>
-                <p>"Eu sou o seu professor de boxe aqui na academia... Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit."</p>
+                <p>"Fala, campeão(ã)! Sou o Antônio, seu professor de boxe. Vou te ensinar a dar aquele soco perfeito
+                    enquanto cuida do seu condicionamento e alivia o estresse. Pronto(a) pra entrar no ringue da vida?"
+                </p>
             </div>
         </div>
 
-        <div class="tab">
-            <input type="checkbox" name="accordion-5" id="cb5" checked>
+        <!--<div class="tab">
+            <input type="radio" name="accordion" id="cb5">
             <label for="cb5" class="tab__label"><span>Nutri</span></label>
             <div class="tab__content">
-                <!--Nutri-->
                 <div class="profile">
                     <img class="foto"
                         src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
@@ -134,7 +134,7 @@
                 </div>
                 <p>"E aí, eu vou ajudar você com as aulas de pilates... Lorem ipsum dolor sit amet consectetur
                     adipisicing elit."</p>
-            </div>
+            </div>-->
         </div>
     </section>
 
@@ -147,12 +147,14 @@
                         <th>Dia</th>
                         <th>Manhã</th>
                         <th>Tarde</th>
+                        <th>Noite</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Segunda</td>
                         <td>9:00 - 11:00</td>
+                        <td>14:00 - 18:00</td>
                         <td>14:00 - 18:00</td>
                     </tr>
                     <tr>
@@ -175,6 +177,36 @@
                         <td>9:00 - 11:00</td>
                         <td>14:00 - 18:00</td>
                     </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>9:00 - 11:00</td>
+                        <td>x</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Aulas de boxe:</h2>
+            <table>
+                <thead>
+                    <th>dia</th>
+                    <th>categoria</th>
+                    <th>horario</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>segunda</td>
+                        <td>infantil</td>
+                        <td>19h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>adulto</td>
+                        <td>19h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Agende sua aula</td>
+                        <td>Link</td>
+                        <td id="loc">Contato</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -188,16 +220,19 @@
     </section>
 
     <section class="nossoTime">
-        <h2>Nosso Time</h2>
+        <h2 id="parceiros">Nossos Parceiros</h2>
 
-        <div class="fotos">
-            <div class="perfil"></div>
-            <div class="perfil"></div>
-            <div class="perfil"></div>
-            <div class="perfil"></div>
-            <div class="perfil"></div>
-            <div class="perfil"></div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="img/carrossel_img/dss.png" alt="Imagem 1">
+                <img src="img/carrossel_img/usina.png" alt="Imagem 2">
+                <img src="img/carrossel_img/joao-masso.png" alt="Imagem 3">
+            </div>
+            <button class="prev-btn">❮</button>
+            <button class="next-btn">❯</button>
         </div>
+
     </section>
 
     <footer>
@@ -206,11 +241,14 @@
 
         <!--Insta-->
         <h3>Mantenha-se atualizado das novidades, siga nosso perfil do instagram:</h3>
-        <a href="https://www.instagram.com/corpo_atletatf?igsh=MWIyampocmlxMWducg=="><img src="img/insta_icon.png" alt="">@corpo_atleta</a>
+        <a href="https://www.instagram.com/corpo_atletatf?igsh=MWIyampocmlxMWducg=="><img src="img/insta_icon.png"
+                alt="">@corpo_atleta</a>
 
         <!--whats-->
         <h3>Para mais detalhes, entre em contato através do whatsapp:</h3>
-        <a href="https://api.whatsapp.com/send?phone=555194391707&fbclid=PAAaY5JbZPckPCewE2pUG_VbHCzBauhY9qOfEkrt3ECgoT0LkqKeEuNaKr2P8_aem_AQUxPGleXtMmRi_ymmJ2T_xPh04MU_zR_yvvICUD3rhJHPHioR87t6MYYDRCI2Zq1JA"><img src="img/whatsapp_icon.png" alt="">(51) 9439-1707</a>
+        <a
+            href="https://api.whatsapp.com/send?phone=555194391707&fbclid=PAAaY5JbZPckPCewE2pUG_VbHCzBauhY9qOfEkrt3ECgoT0LkqKeEuNaKr2P8_aem_AQUxPGleXtMmRi_ymmJ2T_xPh04MU_zR_yvvICUD3rhJHPHioR87t6MYYDRCI2Zq1JA"><img
+                src="img/whatsapp_icon.png" alt="">(51) 9439-1707</a>
 
         <img class="logo-white" src="img/corpoatleta_white.png" alt="">
 
