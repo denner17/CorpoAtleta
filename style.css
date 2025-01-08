@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+:root{
+    color: --orange(#ffbd59);
+}
+
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,7 +36,7 @@ header {
         z-index: 5;
 
         button {
-            background-color: #d39700;
+            background-color: #ffbd59;
             color: #fff;
             text-decoration: underline;
             border: none;
@@ -77,7 +81,7 @@ header {
 .bar {
     height: 5px;
     width: 40px;
-    background-color: #d39700;
+    background-color: #ffbd59;
     transform: translate(3px);
     display: block;
     border-radius: 5px;
@@ -231,7 +235,7 @@ main {
     background: linear-gradient(#ffffff, #922bba);
     border-radius: 0;
     overflow: hidden;
-    max-height: 1000px;
+    max-height: 10000px;
 
     h2 {
         text-align: center;
@@ -250,7 +254,7 @@ main {
         }
 
         input:not(:checked)~.tab__content {
-            max-height: 0;
+            max-height: 0px;
         }
 
         input:checked+.tab__label::after {
@@ -268,6 +272,11 @@ main {
         input[type="radio"]:checked~.tab__content {
             max-height: 500px;
             /* Ajuste para acomodar o conteúdo mais longo */
+        }
+
+        #parcerias{
+            display: grid;
+            
         }
 
 
@@ -316,6 +325,13 @@ main {
                     width: 25px;
                     height: 25px;
                 }
+            }
+
+            #parceiros{
+                background-color: #3c005f;
+                padding: 1rem;
+                justify-content: center;
+
             }
 
             p {
@@ -403,6 +419,7 @@ main {
     padding: 1rem 0;
     text-align: center;
     background-color: #fff;
+    width: 100%;
 
     /*DIV para tabela*/
     div {
@@ -414,7 +431,7 @@ main {
         table {
             border-collapse: collapse;
             width: 100%;
-            background-color: #d39700;
+            background-color: #ffbd59;
 
             thead {
                 background-color: #fff;
@@ -483,7 +500,6 @@ main {
         left: 50%;
         transform: translate(-50%);
         width: 100%;
-        max-width: 600px;
         background: linear-gradient(to top, #3c005f, #ffffff00);
         padding-bottom: 3rem;
         overflow: hidden;
@@ -500,6 +516,7 @@ main {
 
     .carousel img {
         width: 80%;
+        max-width: 450px;
         border-radius: 20px;
         flex-shrink: 0;
     }

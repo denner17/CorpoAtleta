@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/main-icon.png">
     <script src="main.js" defer></script>
     <title>Corpo Atleta</title>
 </head>
@@ -24,7 +25,7 @@
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#horarios">Horários</a></li>
                     <li><a href="#loc">Localização</a></li>
-                    <li><a href="#parceiros">Parceiros</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
                 </ul>
 
                 <a
@@ -37,7 +38,7 @@
     </header>
 
     <main>
-        <video autoplay loop muted>
+        <video autoplay loop muted playsinline poster="vd/fullback.png">
             <source src="vd/video_corpoatleta.mp4" type="video/mp4">
         </video>
         <div>
@@ -121,20 +122,23 @@
             </div>
         </div>
 
-        <!--<div class="tab">
+        <div class="tab">
             <input type="radio" name="accordion" id="cb5">
-            <label for="cb5" class="tab__label"><span>Nutri</span></label>
-            <div class="tab__content">
-                <div class="profile">
-                    <img class="foto"
-                        src="https://img.freepik.com/vetores-premium/icone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg"
-                        alt="">
-                    <span>@nutri</span>
-                    <img class="verificado" src="img/verificado_selo.png" alt="">
+            <label for="cb5" class="tab__label"><span>Parceiros</span></label>
+            <div id="parcerias" class="tab__content">
+                <div id="parceiros">
+                    <p>Massoterapeuta</p>
+                    <a href=""><button>saiba mais</button></a>
                 </div>
-                <p>"E aí, eu vou ajudar você com as aulas de pilates... Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit."</p>
-            </div>-->
+                <div id="parceiros">
+                    <p>Default</p>
+                    <a href=""><button>saiba mais</button></a>
+                </div>
+                <div id="parceiros">
+                    <p>Default</p>
+                    <a href=""><button>saiba mais</button></a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -220,11 +224,12 @@
     </section>
 
     <section class="nossoTime">
-        <h2 id="parceiros">Nossos Parceiros</h2>
+        <h2 id="destaques">Destaques</h2>
 
 
         <div class="carousel-container">
             <div class="carousel">
+                <img src="img/carrossel_img/profissionais.jpg" alt="">
                 <img src="img/carrossel_img/dss.png" alt="Imagem 1">
                 <img src="img/carrossel_img/usina.png" alt="Imagem 2">
                 <img src="img/carrossel_img/joao-masso.png" alt="Imagem 3">
