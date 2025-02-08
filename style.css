@@ -300,11 +300,7 @@ main {
             align-items: center;
             gap: 0.5rem;
             background-color: white;
-
-            #adao {
-                padding-top: none;
-                background: linear-gradient(#3c005f00, #ff000000);
-            }
+            width: 100%;
 
             .profile {
                 background: linear-gradient(#57028875, #ffffff36);
@@ -335,15 +331,23 @@ main {
             }
 
             .link-informativo{
-                width: 90%;
+                width: 100%;
                 display: flex;
                 justify-content: center;
-                color: white;
+                color: #ffffff;
+                
 
                 p{
-                    background-color: #1e0030;
+                    background-color: #1e0030f5;
                     border: none;
                     font-weight: bold;
+                    padding: 10px;
+                    width: 80%;
+
+                    a{
+                        text-decoration: underline;
+                        color: white;
+                    }
                 }
             }
 
@@ -354,6 +358,25 @@ main {
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
+
+                .baowei{
+                    width: 50px;
+                    height: 50px;
+                    background-color: #050000;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+
+                    img{
+                        width: 40px;
+                    }
+                }
+                
+                img{
+                    border-radius: 5px;
+                }
 
                 a{
                     text-decoration: none;
@@ -380,7 +403,7 @@ main {
             }
 
             p {
-                width: 70%;
+                width: 80%;
                 padding: 1rem;
                 margin-bottom: 1rem;
                 border: solid 2px #3c005f99;
